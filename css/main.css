@@ -103,6 +103,8 @@ body {
 ul, 
 ol {
  list-style-type: none;
+ margin: 0;
+ padding: 0;
  
 }
  
@@ -116,6 +118,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
  
 h3, 
@@ -275,7 +278,7 @@ input[type=button] {
 }
 .features i {
 	font-size: 3.75em;
-        margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .features h2 { 
@@ -294,18 +297,6 @@ input[type=button] {
   flex-flow: row wrap; 
 }
 
-.features .content-wrapper {
-
-}
-
-.features .fontawesome-icon {
-
-}
-
-.features .features-item-description {
-
-}
-
 .features p {
   margin: 0;
   text-align: center;
@@ -318,9 +309,6 @@ input[type=button] {
     background-color: #2a423a;
 }
 
-.reviews .content-wrapper {
-
-}
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
@@ -346,9 +334,6 @@ footer .content-wrapper {
    margin: 50px 0;
 }
 
-footer .footer-content {
-
-}
 
 footer .contact {
   margin-bottom: 50px;
@@ -367,7 +352,15 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 footer p {
   margin: 0;
@@ -630,6 +623,9 @@ footer p {
   .features .features-item-description {
       width: 62%; 
   }
+  .features i {
+    margin-bottom: 30px;
+  }
 
   /* Reviews */
   .reviews article {
@@ -673,6 +669,10 @@ footer h4 {
 footer p {
   line-height: 1.285;
 }
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
+}
 
 footer .copyright {
     width: 100%; 
@@ -691,7 +691,7 @@ footer .copyright {
         width: 45%;
     }
     .map figure {
-      padding-bottom: 50%;
+      padding-bottom: 45.5%;
     }
  
     .contact-section .content-wrapper h2 {
@@ -794,6 +794,9 @@ footer .copyright {
 /* ==========================================================================
 About Page
 ========================================================================== */
+.map figure {
+  padding-bottom: 37.5%;
+}
  .mission h2,
  .contact-section .content-wrapper h2 {
      width: 95%;
